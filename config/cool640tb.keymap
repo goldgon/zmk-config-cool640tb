@@ -37,6 +37,12 @@
             timeout-ms = <50>;
         };
 
+       bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 9 30 39>;
+            timeout-ms = <50>;
+        };
+
 
         tab {
             bindings = <&kp ESCAPE>;
