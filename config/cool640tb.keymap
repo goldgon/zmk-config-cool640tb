@@ -35,6 +35,7 @@
         fopen {
             bindings = <&kp LG(N2)>;
             key-positions = <8 9>;
+            layers = <0>;
             timeout-ms = <50>;
         };
 
@@ -70,11 +71,7 @@
             layers = <2>;
         };
 
-        BS {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
-            layers = <0>;
-        };
+
     };
 
     macros {
