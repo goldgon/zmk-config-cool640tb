@@ -53,6 +53,12 @@
             layers = <0>;
         };
 
+        bt0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <5 15 25 35>;
+            layers = <0>;
+        };
+
 
     };
 
