@@ -75,11 +75,11 @@
             bindings = <
 &kp ESCAPE          &kp Q        &kp E      &kp U         &kp P                                    &kp D        &kp T         &kp R       &kp W       &mkp MB1
 
-&mt LSHIFT TAB      &kp O        &kp A      &kp I         &mt LCTRL F                              &mt RCTRL H  &kp Y         &kp K       &kp S       &mt LEFT_SHIFT B
+&mt LSHIFT TAB      &lt 3 O        &lt 2 A      &lt 1 I         &mt LCTRL F                             &mt RCTRL H  &lt 1 Y         &lt 2 K       &lt 3 S       &mt LEFT_SHIFT B
 
-&mt LCTRL PERIOD    &mt LGUI X   &mt LALT C &mt LSHIFT V  &kp L                                    &kp N       &mt RSHIFT M  &mt RALT G  &mt RGUI J  &mt RCTRL Z
+&lt 4 MINUS    &mt LGUI X   &mt LALT C &mt LSHIFT V  &mt LCTRL L                                   &mt RCTRL N        &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z
 
-&none              &none         &none      &none         &mo 1                                      &mo 2      &none     &none       &none        &none
+&none              &none         &none      &none         &kp LC(RG(LEFT))        &kp LG(RC(RIGHT))     &none     &none       &none        &none
             >;
         };
 
