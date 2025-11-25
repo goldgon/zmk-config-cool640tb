@@ -10,19 +10,16 @@
 // #include <dt-bindings/zmk/pointing.h>
 
 
-
 &mt { 
     flavor = "balanced"; 
-    tapping-term-ms = <165>;
+    tapping-term-ms = <200>;
     quick-tap-ms = <150>; 
-    require-prior-idle-ms = <125>;
 };
 
 &lt {
     flavor = "balanced";
-    tapping-term-ms = <165>; // change 200 to 150
+    tapping-term-ms = <200>; // change 200 to 150
     quick-tap-ms = <150>; // change 200 to 150
-    require-prior-idle-ms = <125>;
 };
 
 
