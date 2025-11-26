@@ -79,7 +79,7 @@
 
 &lt 4 MINUS    &mt LGUI X   &mt LALT C &mt LSHIFT V  &mt LCTRL L                                   &mt RCTRL N        &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z
 
-&none              &none         &none      &none         &kp LC(RG(LEFT))        &kp LG(RC(RIGHT))     &none     &none       &none        &none
+&none              &none         &kp LG(PSCRN)     &none         &kp LC(RG(LEFT))        &kp LG(RC(RIGHT))     &none     &none       &none        &none
             >;
         };
 
