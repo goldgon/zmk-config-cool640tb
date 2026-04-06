@@ -66,7 +66,7 @@
 
 
 
-        eq {
+        btcl {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <0 10 20 30>;
             layers = <0>;
@@ -90,6 +90,23 @@
             layers = <0>;
         };
 
+        mute {
+            bindings = <&kp K_MUTE>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        vup {
+            bindings = <&kp K_VOL_UP>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        vdn {
+            bindings = <&kp K_VOL_DN>;
+            key-positions = <23 24>;
+            layers = <0>;
+        };
 
     };
 
