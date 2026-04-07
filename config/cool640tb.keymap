@@ -91,19 +91,19 @@
         };
 
         mute {
-            bindings = <&kp K_MUTE>;
+            bindings = <&kp C_MUTE>;
             key-positions = <13 14>;
             layers = <0>;
         };
 
         vup {
-            bindings = <&kp K_VOL_UP>;
+            bindings = <&kp C_VOL_UP>;
             key-positions = <3 4>;
             layers = <0>;
         };
 
         vdn {
-            bindings = <&kp K_VOL_DN>;
+            bindings = <&kp C_VOL_DN>;
             key-positions = <23 24>;
             layers = <0>;
         };
